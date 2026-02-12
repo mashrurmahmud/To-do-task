@@ -1,6 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;   
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677,#4e085f);
+    height: 100vh;
+    padding: 10px;   
+                      
     
+   /* parent child should have padding  then child-element will be worked */
+}
+
+
+ .todo_app{
+    margin: 100px;
+    max-width: 540px;
+    background: #fff;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo_app h2{
+    color: #002765;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+
+.todo_app h2 img{
+    width: 30px;
+    margin-left: 10px;
 }
