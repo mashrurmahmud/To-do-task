@@ -20,7 +20,7 @@
 
 
  .todo_app{
-    margin: 100px;
+    margin: 100px auto;
     max-width: 540px;
     background: #fff;
     padding: 40px 30px 70px;
@@ -39,4 +39,38 @@
 .todo_app h2 img{
     width: 30px;
     margin-left: 10px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edeef0;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding-left: 25px;
+   
+
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: 500;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #9867;
 }
